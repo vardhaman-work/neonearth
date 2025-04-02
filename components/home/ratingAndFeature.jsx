@@ -1,4 +1,4 @@
-import StarRating from "./StarRating";
+import StarRating from "./starRating";
 
 const RatingAndFeature = () => {
   let feature = [
