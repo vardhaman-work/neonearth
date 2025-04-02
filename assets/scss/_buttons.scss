@@ -1,0 +1,12 @@
+.btn {
+    &-primary {
+        font-size: 0.875rem;
+        background-color: $brand-primary;
+        border-color: $brand-primary;
+    }
+
+    &:hover {
+        background-color: #cf2865;
+        border-color: #cf2865;
+    }
+}

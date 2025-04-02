@@ -1,0 +1,81 @@
+.footer-content {
+    border-color: #707070;
+
+    a {
+        color: #fff;
+
+        span {
+            font-size: 1.9rem;
+
+            &::before {
+                color: #fff;
+            }
+        }
+
+        &:hover {
+            color: darken(#fff, 20%) !important;
+
+            span {
+                &::before {
+                    color: darken(#fff, 20%) !important;
+                }
+            }
+        }
+    }
+
+    h3 {
+        font-size: 0.9rem;
+    }
+
+    .neon.neon-tiktok_icon {
+        font-size: 1.5rem;
+    }
+}
+
+footer {
+    color: white;
+    background-color: black;
+}
+
+.footer-content h3, .footer-content .h3 {
+    font-size: 1.125rem;
+}
+
+.subscription {
+    #footersubscribe_sidebar {
+        background: transparent;
+        border: unset;
+        margin-bottom: 0 !important;
+
+        .user_subscribe_form {
+            .row {
+                align-items: center;
+            }
+
+            #klaviyo_subscribe {
+                border-radius: 50px;
+                height: 50px;
+                font-size: 0.875rem;
+                width: 100%;
+            }
+
+            .help-block {
+                font-size: 12px;
+                margin-bottom: 0;
+            }
+
+            .input-group-require {
+                display: none;
+            }
+        }
+
+        .form-group {
+            margin-bottom: 0 !important;
+
+            input {
+                border-radius: 50px;
+                height: calc(3rem + 2px);
+            }
+        }
+    }
+}

@@ -1,0 +1,1205 @@
+//@include font-face('OpenSans-Light', 'OpenSans-Light', 'sans-serif');
+//@include font-face('OpenSans-Regular', 'OpenSans-Regular', 'sans-serif');
+//@include font-face('OpenSans-Medium', 'OpenSans-Medium', 'sans-serif');
+//@include font-face('OpenSans-SemiBold', 'OpenSans-SemiBold', 'sans-serif');
+//@include font-face('OpenSans-Bold', 'OpenSans-Bold', 'sans-serif');
+// @include font-face('sacramento-regular', 'sacramento-regular', 'sans-serif');
+// @include font-face('OpenSans-ExtraBold', 'OpenSans-ExtraBold', 'sans-serif');
+
+
+@font-face {
+  font-family: 'neon';
+  //src:  url('../fonts/neon.eot?xy3z4w');
+  //src:  url('../fonts/neon.eot?xy3z4w#iefix') format('embedded-opentype'),
+    /* url('../fonts/neon.ttf??rj1dx3') format('truetype'), */
+  src:  url('../fonts/neon.woff?xy3z4w') format('woff');
+    /* url('../fonts/neon.svg??rj1dx3#neon') format('svg'); */
+  font-weight: normal;
+  font-style: normal;
+  font-display:swap;
+}
+
+.neon{
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'neon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.neon-Star-icon:before {
+  content: "\ea01";
+  color: #fc4f84;
+}
+.neon-diamond_icon:before {
+  content: "\ea01";
+  color: #fc487f;
+}
+.neon-tiktok_icon:before {
+    content: "\e9fd";
+    color: #fff;
+}
+.neon-lock_icon:before {
+    content: "\e9fe";
+    color: #fff;
+}
+.neon-gift_icon:before {
+    content: "\e9ff";
+    color: #c92c61;
+}
+.neon-thick_icon:before {
+  content: "\e9fc";
+  color: #fc487f;
+}
+.neon-Indoor_outdoor_use:before {
+  content: "\ea00";
+  color: #fc487f;
+}
+.neon-dollar:before {
+  content: "\ea0a";
+  color: #fc487f;
+}
+.neon-user_journey .path1:before {
+  content: "\e9f1";
+  color: rgb(252, 72, 127);
+}
+.neon-user_journey .path2:before {
+  content: "\e9f3";
+  margin-left: -1em;
+  color: rgb(252, 72, 127);
+}
+.neon-user_journey .path3:before {
+  content: "\e9f4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.neon-my_account_journey:before {
+  content: "\e9f5";
+  color: #fc487f;
+}
+.neon-easy_to_redeem:before {
+  content: "\e9f6";
+  color: #fc487f;
+}
+.neon-extra_saving:before {
+  content: "\e9f7";
+  color: #fc487f;
+}
+.neon-maxi_coupons:before {
+  content: "\e9f8";
+  color: #fc487f;
+}
+.neon-personalized_offers:before {
+  content: "\e9f9";
+  color: #fc487f;
+}
+.neon-saving_checkout:before {
+  content: "\e9fa";
+  color: #fc487f;
+}
+.neon-saving_point:before {
+  content: "\e9fb";
+  color: #fc487f;
+}
+.neon-Color-options:before {
+    content: "\e913";
+    color: #fc487f;
+  }
+  .neon-Inch-tall-cushion:before {
+    content: "\e923";
+    color: #fc487f;
+  }
+  .neon--polyester-1:before {
+    content: "\e925";
+    color: #fc487f;
+  }
+  .neon-microns-coated:before {
+    content: "\e927";
+    color: #fc487f;
+  }
+  .neon-GSM-vinyl-based:before {
+    content: "\e92f";
+    color: #fc487f;
+  }
+  .neon-GSM-artboard:before {
+    content: "\e963";
+    color: #fc487f;
+  }
+  .neon-Acid-free-archival-paper:before {
+    content: "\e964";
+    color: #fc487f;
+  }
+  .neon-Available-in-2-sizes:before {
+    content: "\e965";
+    color: #fc487f;
+  }
+  .neon-Available-in-4-textures:before {
+    content: "\e966";
+    color: #fc487f;
+  }
+  .neon-Available-in-8-paper-types:before {
+    content: "\e967";
+    color: #fc487f;
+  }
+  .neon-Blackout-curtains:before {
+    content: "\e968";
+    color: #fc487f;
+  }
+  .neon-Breathable-Material:before {
+    content: "\e977";
+    color: #fc487f;
+  }
+  .neon-Different-framing-choices:before {
+    content: "\e978";
+    color: #fc487f;
+  }
+  .neon-Digitally-printed:before {
+    content: "\e979";
+    color: #fc487f;
+  }
+  .neon-Double-fold-hem:before {
+    content: "\e97a";
+    color: #fc487f;
+  }
+  .neon-Double-hem-stitch:before {
+    content: "\e97b";
+    color: #fc487f;
+  }
+  .neon-Durability-up-to-100-years:before {
+    content: "\e97f";
+    color: #fc487f;
+  }
+  .neon-Durable:before {
+    content: "\e980";
+    color: #fc487f;
+  }
+  .neon-easy-to-clean:before {
+    content: "\e980";
+    color: #fc487f;
+  }
+  .neon-Easy-to-hang:before {
+    content: "\e981";
+    color: #fc487f;
+  }
+  .neon-Eco-solvent-printing:before {
+    content: "\e982";
+    color: #fc487f;
+  }
+  .neon-Fadeproof:before {
+    content: "\e983";
+    color: #fc487f;
+  }
+  .neon-Hanging-hook:before {
+    content: "\e984";
+    color: #fc487f;
+  }
+  .neon-Hemp-string:before {
+    content: "\e985";
+    color: #fc487f;
+  }
+  .neon-Inserts-included:before {
+    content: "\e986";
+    color: #fc487f;
+  }
+  .neon-Invisible-zipper-closure-1:before {
+    content: "\e987";
+    color: #fc487f;
+  }
+  .neon-Matt-to-reflective-finish:before {
+    content: "\e988";
+    color: #fc487f;
+  }
+  .neon-Matte-finish:before {
+    content: "\e989";
+    color: #fc487f;
+  }
+  .neon-Matte-to-glossy-finish1:before {
+    content: "\e98a";
+    color: #fc487f;
+  }
+  .neon-Multiple-mounting-options:before {
+    content: "\e98b";
+    color: #fc487f;
+  }
+  .neon-Multiple-prints--patterns .path1:before {
+    content: "\e98c";
+    color: rgb(252, 72, 127);
+  }
+  .neon-Multiple-prints--patterns .path2:before {
+    content: "\e98d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .neon-Multiple-shapes--sizes:before {
+    content: "\e98e";
+    color: #fc487f;
+  }
+  .neon-One-Side-Designable:before {
+    content: "\e98f";
+    color: #fc487f;
+  }
+  .neon-Peel--stick:before {
+    content: "\e990";
+    color: #fc487f;
+  }
+  .neon-Piped-edges:before {
+    content: "\e991";
+    color: #fc487f;
+  }
+  .neon-Resistant-to-humidity:before {
+    content: "\e992";
+    color: #fc487f;
+  }
+  .neon-Sewn-Edges:before {
+    content: "\e9a2";
+    color: #fc487f;
+  }
+  .neon-Silver-grommets:before {
+    content: "\e9a3";
+    color: #fc487f;
+  }
+  .neon-Soft-inserts:before {
+    content: "\e9a4";
+    color: #fc487f;
+  }
+  .neon-Sqaure-shaped:before {
+    content: "\e9aa";
+    color: #fc487f;
+  }
+  .neon-Strong-handles:before {
+    content: "\e9ae";
+    color: #fc487f;
+  }
+  .neon-Water-resistant-fabric:before {
+    content: "\e9c9";
+    color: #fc487f;
+  }
+  .neon-White-base:before {
+    content: "\e9d2";
+    color: #fc487f;
+  }
+  .neon-Wooden-sticks:before {
+    content: "\e9ea";
+    color: #fc487f;
+  }
+  .neon-Wrinkle-Free-Fabric:before {
+    content: "\e9f0";
+    color: #fc487f;
+  }
+  .neon-Wrinkle-resistant .path1:before {
+    content: "\eaa9";
+    color: rgb(255, 255, 255);
+  }
+  .neon-Wrinkle-resistant .path2:before {
+    content: "\eaaa";
+    margin-left: -1em;
+    color: rgb(252, 72, 127);
+  }
+  .neon-Wrinkle-resistant .path3:before {
+    content: "\eaab";
+    margin-left: -1em;
+    color: rgb(252, 72, 127);
+  }
+  .neon-Wrinkle-resistant .path4:before {
+    content: "\eaac";
+    margin-left: -1em;
+    color: rgb(252, 72, 127);
+  }
+  .neon-Wrinkle-resistant .path5:before {
+    content: "\eaad";
+    margin-left: -1em;
+    color: rgb(252, 72, 127);
+  }
+.neon-prime_copy:before {
+  content: "\e97e";
+  color: #666;
+}
+.neon-design_library:before {
+  content: "\e96d";
+  color: #666;
+}
+.neon-my_computer:before {
+  content: "\e96e";
+  color: #666;
+}
+.neon-instagram_icon:before {
+  content: "\e96f";
+  color: #ec2746;
+}
+.neon-google_icon .path1:before {
+  content: "\e970";
+  color: rgb(251, 187, 5);
+}
+.neon-google_icon .path2:before {
+  content: "\e971";
+  margin-left: -0.9599609375em;
+  color: rgb(233, 67, 53);
+}
+.neon-google_icon .path3:before {
+  content: "\e972";
+  margin-left: -0.9599609375em;
+  color: rgb(66, 133, 244);
+}
+.neon-google_icon .path4:before {
+  content: "\e973";
+  margin-left: -0.9599609375em;
+  color: rgb(15, 157, 88);
+}
+.neon-green_select .path1:before {
+  content: "\e974";
+  color: rgb(0, 195, 20);
+}
+.neon-green_select .path2:before {
+  content: "\e975";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.neon-sign_in_with_google:before {
+  content: "\e976";
+  color: #fff;
+}
+.neon-no_images_found .path1:before {
+  content: "\e977";
+  color: rgb(0, 0, 0);
+}
+.neon-no_images_found .path2:before {
+  content: "\e978";
+  margin-left: -0.95703125em;
+  color: rgb(238, 238, 238);
+}
+.neon-no_images_found .path3:before {
+  content: "\e979";
+  margin-left: -0.95703125em;
+  color: none;
+}
+.neon-no_images_found .path4:before {
+  content: "\e97a";
+  margin-left: -0.95703125em;
+  color: none;
+}
+.neon-no_images_found .path5:before {
+  content: "\e97b";
+  margin-left: -0.95703125em;
+  color: rgb(102, 102, 102);
+}
+.neon-facebook_icon:before {
+  content: "\e97c";
+  color: #0866ff;
+}
+.neon-my_gallery:before {
+  content: "\e97d";
+  color: #666;
+}
+.neon-new_upload_design .path1:before {
+  content: "\e969";
+  color: rgb(252, 72, 127);
+  opacity: 0.4;
+}
+.neon-new_upload_design .path2:before {
+  content: "\e96a";
+  margin-left: -1em;
+  color: rgb(252, 72, 127);
+}
+.neon-new_upload_design .path3:before {
+  content: "\e96b";
+  margin-left: -1em;
+  color: rgb(247, 247, 247);
+}
+.neon-new_upload_design .path4:before {
+  content: "\e96c";
+  margin-left: -1em;
+  color: rgb(247, 247, 247);
+}
+.neon-calc_icon_6:before {
+  content: "\e963";
+  color: #f42f77;
+}
+.neon-calc_icon_5:before {
+  content: "\e964";
+  color: #f42f77;
+}
+.neon-calc_icon_4:before {
+  content: "\e965";
+  color: #f42f77;
+}
+.neon-calc_icon_3:before {
+  content: "\e966";
+  color: #f42f77;
+}
+.neon-calc_icon_2:before {
+  content: "\e967";
+  color: #f42f77;
+}
+.neon-calc_icon_1:before {
+  content: "\e968";
+  color: #f42f77;
+}
+.neon-Discount:before {
+  content: "\e962";
+}
+.neon-Payments_icon:before {
+  content: "\e953";
+}
+.neon-Email_icon:before {
+  content: "\e955";
+  color: #f42f77;
+}
+.neon-Collab_icon:before {
+  content: "\e958";
+}
+.neon-new_cart:before {
+  content: "\e95c";
+}
+.neon-discover_upload:before {
+  content: "\e95d";
+  color: #e6336d;
+}
+.neon-prompt_delivery:before {
+  content: "\e95e";
+  color: #fc487f;
+}
+.neon-tailored:before {
+  content: "\e95f";
+  color: #fc487f;
+}
+.neon-diverse_library:before {
+  content: "\e960";
+  color: #fc487f;
+}
+.neon-best_printing:before {
+  content: "\e961";
+  color: #fc487f;
+}
+.neon-Address:before {
+  content: "\e951";
+}
+.neon-Bulk-Order:before {
+  content: "\e952";
+}
+.neon-Contact-NUmber:before {
+  content: "\e954";
+  color: #f42f77;
+}
+.neon-Feedback:before {
+  content: "\e956";
+}
+.neon-Order-Status:before {
+  content: "\e957";
+}
+.neon-Security-Concerns:before {
+  content: "\e959";
+}
+.neon-Shipping:before {
+  content: "\e95a";
+}
+.neon-Wallets:before {
+  content: "\e95b";
+}
+.neon-cart1:before {
+  content: "\e944";
+  color: #666;
+}
+.neon-hand_up:before {
+  content: "\e945";
+  color: #f42f77;
+}
+.neon-pdp_Freeshipping:before {
+  content: "\e946";
+  color: #fc487f;
+}
+.neon-pdp_theme:before {
+  content: "\e947";
+  color: #fc487f;
+}
+.neon-pdp_customer_support:before {
+  content: "\e948";
+  color: #e04477;
+}
+.neon-iconoir_wallet1:before {
+  content: "\e949";
+  color: #6a6a6a;
+}
+.neon-iconoir_wallet_three1:before {
+  content: "\e94a";
+  color: #6a6a6a;
+}
+.neon-iconoir_wallet_two1:before {
+  content: "\e94b";
+  color: #6a6a6a;
+}
+.neon-panel_view:before {
+  content: "\e93f";
+  color: #666;
+}
+.neon-open_curtain_icon .path1:before {
+  content: "\e937";
+  color: rgb(102, 102, 102);
+}
+.neon-open_curtain_icon .path2:before {
+  content: "\e938";
+  margin-left: -2em;
+  color: rgb(255, 255, 255);
+}
+.neon-close_curtain_icon .path1:before {
+  content: "\e940";
+  color: rgb(102, 102, 102);
+}
+.neon-close_curtain_icon .path2:before {
+  content: "\e941";
+  margin-left: -2em;
+  color: rgb(255, 255, 255);
+}
+.neon-add_studio_img .path1:before {
+  content: "\e93d";
+  color: rgb(102, 102, 102);
+}
+.neon-add_studio_img .path2:before {
+  content: "\e93e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.neon-bg_plus_icon .path1:before {
+  content: "\e939";
+  color: rgb(0, 0, 0);
+}
+.neon-bg_plus_icon .path2:before {
+  content: "\e93a";
+  margin-left: -1.0498046875em;
+  color: rgb(255, 255, 255);
+}
+.neon-bg_minus_icon .path1:before {
+  content: "\e93b";
+  color: rgb(0, 0, 0);
+}
+.neon-bg_minus_icon .path2:before {
+  content: "\e93c";
+  margin-left: -1.0498046875em;
+  color: rgb(255, 255, 255);
+}
+.neon-panel_line:before {
+  content: "\e9ef";
+  color: #fff;
+}
+.neon-resolution:before {
+  content: "\e9f2";
+  color: #eb0000;
+}
+.neon-studio_bottom_icon:before {
+  content: "\e9d4";
+  color: #666;
+}
+.neon-studio_center_icon:before {
+  content: "\e9d7";
+  color: #666;
+}
+.neon-studio_left_icon:before {
+  content: "\e9d8";
+  color: #666;
+}
+.neon-studio_pre_icon:before {
+  content: "\e9d9";
+  color: #666;
+}
+.neon-studio_right_icon:before {
+  content: "\e9da";
+  color: #666;
+}
+.neon-studio_rotate_icon:before {
+  content: "\e9db";
+  color: #666;
+}
+.neon-studio_top_icon:before {
+  content: "\e9dc";
+  color: #666;
+}
+.neon-replace:before {
+  content: "\e9d1";
+  color: #f42f77;
+}
+.neon-studio_delet:before {
+  content: "\e9d2";
+}
+.neon-studio_pencil:before {
+  content: "\e9d3";
+  color: #666;
+}
+.neon-studio_next:before {
+  content: "\e9d5";
+}
+.neon-studio_copy:before {
+  content: "\e9d6";
+  color: #666;
+}
+.neon-address:before {
+  content: "\e9c6";
+  color: #666;
+}
+.neon-order:before {
+  content: "\e9c7";
+  color: #6a6a6a;
+}
+.neon-favorites:before {
+  content: "\e9c8";
+  color: #666;
+}
+.neon-design:before {
+  content: "\e9c9";
+}
+.neon-account:before {
+  content: "\e9ca";
+  color: #6a6a6a;
+}
+.neon-notification1:before {
+  content: "\e9cb";
+  color: #6a6a6a;
+}
+.neon-lock:before {
+  content: "\e9cc";
+  color: #6a6a6a;
+}
+.neon-change_mail:before {
+  content: "\e9cd";
+  color: #6a6a6a;
+}
+.neon-payment:before {
+  content: "\e9ce";
+  color: #666;
+}
+.neon-personal_info:before {
+  content: "\e9cf";
+  color: #666;
+}
+.neon-followers:before {
+  content: "\e9d0";
+  color: #666;
+}
+.neon-All:before {
+  content: "\e9bf";
+}
+.neon-Bags:before {
+  content: "\e9c0";
+}
+.neon-Clothing--Accessory:before {
+  content: "\e9c1";
+}
+.neon-Home--Living:before {
+  content: "\e9c2";
+}
+.neon-Pet-supplies:before {
+  content: "\e9c3";
+}
+.neon-Stationery:before {
+  content: "\e9c4";
+}
+.neon-Wall--Surfaces:before {
+  content: "\e9c5";
+}
+.neon-cupon_3 .path1:before {
+  content: "\e902";
+  color: rgb(239, 239, 239);
+}
+.neon-cupon_3 .path2:before {
+  content: "\e903";
+  margin-left: -0.9755859375em;
+  color: rgb(126, 126, 126);
+}
+.neon-cupon_2 .path1:before {
+  content: "\e90f";
+  color: rgb(239, 239, 239);
+}
+.neon-cupon_2 .path2:before {
+  content: "\e9b5";
+  margin-left: -0.9755859375em;
+  color: rgb(102, 102, 102);
+}
+.neon-cupon_1 .path1:before {
+  content: "\e9bb";
+  color: rgb(239, 239, 239);
+}
+.neon-cupon_1 .path2:before {
+  content: "\e9bc";
+  margin-left: -0.9755859375em;
+  color: rgb(102, 102, 102);
+}
+.neon-cupon_4 .path1:before {
+  content: "\e9bd";
+  color: rgb(239, 239, 239);
+}
+.neon-cupon_4 .path2:before {
+  content: "\e9be";
+  margin-left: -0.9755859375em;
+  color: rgb(102, 102, 102);
+}
+.neon-create_arrow_one .path1:before {
+  content: "\e9b6";
+  color: rgb(245, 245, 245);
+}
+.neon-create_arrow_one .path2:before {
+  content: "\e9b7";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
+}
+.neon-360:before {
+  content: "\e900";
+  color: #666;
+}
+.neon-achive:before {
+  content: "\e901";
+  color: #666;
+}
+.neon-add_more:before {
+  content: "\e904";
+  color: #666;
+}
+.neon-amazon_pay:before {
+  content: "\e905";
+  color: #666;
+}
+.neon-apple_pay:before {
+  content: "\e906";
+  color: #666;
+}
+.neon-ar_view:before {
+  content: "\e907";
+  color: #666;
+}
+.neon-Art:before {
+  content: "\e908";
+  color: #666;
+}
+.neon-Art-1:before {
+  content: "\e909";
+  color: #666;
+}
+.neon-burger_main_menu:before {
+  content: "\e90a";
+  color: #666;
+}
+.neon-calendar:before {
+  content: "\e90b";
+  color: #666;
+}
+.neon-calendar-1:before {
+  content: "\e90c";
+  color: #666;
+}
+.neon-camera:before {
+  content: "\e90d";
+  color: #666;
+}
+.neon-Cancel_Orders .path1:before {
+  content: "\e90e";
+  color: rgb(102, 102, 102);
+}
+.neon-Cancel_Orders .path2:before {
+  content: "\e9b8";
+  margin-left: -0.9697265625em;
+  color: rgb(102, 102, 102);
+}
+.neon-Cancel_Orders .path3:before {
+  content: "\e9b9";
+  margin-left: -0.9697265625em;
+  color: rgb(102, 102, 102);
+}
+.neon-Cancel_Orders .path4:before {
+  content: "\e9ba";
+  margin-left: -0.9697265625em;
+  color: rgb(244, 29, 0);
+}
+.neon-cart:before {
+  content: "\e910";
+  color: #666;
+}
+.neon-Categories:before {
+  content: "\e911";
+  color: #666;
+}
+.neon-close:before {
+  content: "\e912";
+  color: #666;
+}
+.neon-Clothing:before {
+  content: "\e913";
+}
+.neon-collection:before {
+  content: "\e914";
+  color: #666;
+}
+.neon-Completed_Orders .path1:before {
+  content: "\e915";
+  color: rgb(102, 102, 102);
+}
+.neon-Completed_Orders .path2:before {
+  content: "\e916";
+  margin-left: -0.9697265625em;
+  color: rgb(102, 102, 102);
+}
+.neon-Completed_Orders .path3:before {
+  content: "\e917";
+  margin-left: -0.9697265625em;
+  color: rgb(102, 102, 102);
+}
+.neon-Completed_Orders .path4:before {
+  content: "\e918";
+  margin-left: -0.9697265625em;
+  color: rgb(15, 157, 88);
+}
+.neon-Credit_Card:before {
+  content: "\e919";
+  color: #666;
+}
+.neon-dashboard:before {
+  content: "\e91a";
+  color: #666;
+}
+.neon-Debit_Card:before {
+  content: "\e91b";
+  color: #666;
+}
+.neon-delivery:before {
+  content: "\e91c";
+  color: #666;
+}
+.neon-disable:before {
+  content: "\e91d";
+  color: #666;
+}
+.neon-Download:before {
+  content: "\e91e";
+  color: #666;
+}
+.neon-Earning:before {
+  content: "\e91f";
+  color: #666;
+}
+.neon-Earning_Paid .path1:before {
+  content: "\e920";
+  color: rgb(102, 102, 102);
+}
+.neon-Earning_Paid .path2:before {
+  content: "\e921";
+  margin-left: -0.9697265625em;
+  color: rgb(255, 255, 255);
+}
+.neon-Earning_Paid .path3:before {
+  content: "\e922";
+  margin-left: -0.9697265625em;
+  color: rgb(102, 102, 102);
+}
+.neon-Easy_Returns:before {
+  content: "\e923";
+}
+.neon-email:before {
+  content: "\e924";
+  color: #666;
+}
+.neon-Enable:before {
+  content: "\e925";
+}
+.neon-facebook:before {
+  content: "\e926";
+  color: #666;
+}
+.neon-favorite:before {
+  content: "\e927";
+}
+.neon-filter:before {
+  content: "\e928";
+  color: #666;
+}
+.neon-gift:before {
+  content: "\e929";
+  color: #666;
+}
+.neon-globe:before {
+  content: "\e92a";
+  color: #666;
+}
+.neon-grid_view:before {
+  content: "\e92b";
+  color: #666;
+}
+.neon-Happiness_Guaranteed:before {
+  content: "\e92c";
+  color: #666;
+}
+.neon-history:before {
+  content: "\e92d";
+  color: #666;
+}
+.neon-history-1:before {
+  content: "\e92e";
+  color: #666;
+}
+.neon-home_living:before {
+  content: "\e92f";
+}
+.neon-image:before {
+  content: "\e930";
+  color: #666;
+}
+.neon-instagram:before {
+  content: "\e931";
+  color: #666;
+}
+.neon-list_view:before {
+  content: "\e932";
+  color: #666;
+}
+.neon-location:before {
+  content: "\e933";
+  color: #666;
+}
+.neon-logout:before {
+  content: "\e934";
+  color: #666;
+}
+.neon-more_dots:before {
+  content: "\e935";
+  color: #666;
+}
+.neon-myaccount:before {
+  content: "\e936";
+  color: #666;
+}
+.neon-notification:before {
+  content: "\e993";
+  color: #666;
+}
+.neon-offer:before {
+  content: "\e994";
+  color: #666;
+}
+.neon-Order:before {
+  content: "\e995";
+  color: #666;
+}
+.neon-password:before {
+  content: "\e996";
+  color: #666;
+}
+.neon-paypal:before {
+  content: "\e997";
+  color: #666;
+}
+.neon-pencil:before {
+  content: "\e998";
+  color: #666;
+}
+.neon-pinterest:before {
+  content: "\e999";
+  color: #666;
+}
+.neon-printer:before {
+  content: "\e99a";
+  color: #666;
+}
+.neon-Processing_Orders .path1:before {
+  content: "\e99b";
+  color: rgb(102, 102, 102);
+}
+.neon-Processing_Orders .path2:before {
+  content: "\e99c";
+  margin-left: -0.9697265625em;
+  color: rgb(102, 102, 102);
+}
+.neon-Processing_Orders .path3:before {
+  content: "\e99d";
+  margin-left: -0.9697265625em;
+  color: rgb(102, 102, 102);
+}
+.neon-Processing_Orders .path4:before {
+  content: "\e99e";
+  margin-left: -0.9697265625em;
+  color: rgb(244, 180, 0);
+}
+.neon-Product_Pricing:before {
+  content: "\e99f";
+  color: #666;
+}
+.neon-Profile:before {
+  content: "\e9a0";
+  color: #666;
+}
+.neon-remove:before {
+  content: "\e9a1";
+  color: #666;
+}
+.neon-righ_arrow:before {
+  content: "\e9a2";
+}
+.neon-righ_arrow2:before {
+  content: "\e9a3";
+}
+.neon-search:before {
+  content: "\e9a4";
+}
+.neon-Secure_Checkout:before {
+  content: "\e9a5";
+  color: #666;
+}
+.neon-secure_lock:before {
+  content: "\e9a6";
+  color: #666;
+}
+.neon-sell:before {
+  content: "\e9a7";
+  color: #666;
+}
+.neon-setting:before {
+  content: "\e9a8";
+  color: #666;
+}
+.neon-shape:before {
+  content: "\e9a9";
+  color: #666;
+}
+.neon-share:before {
+  content: "\e9aa";
+}
+.neon-shipping-fast:before {
+  content: "\e9ab";
+  color: #666;
+}
+.neon-slider_show:before {
+  content: "\e9ac";
+  color: #666;
+}
+.neon-Stationery1:before {
+  content: "\e9ad";
+  color: #666;
+}
+.neon-Tax_Information:before {
+  content: "\e9ae";
+}
+.neon-text:before {
+  content: "\e9af";
+  color: #666;
+}
+.neon-theme:before {
+  content: "\e9b0";
+  color: #666;
+}
+.neon-twitter:before {
+  content: "\e9b1";
+  color: #666;
+}
+.neon-Upload:before {
+  content: "\e9b2";
+  color: #666;
+}
+.neon-Upload-1:before {
+  content: "\e9b3";
+  color: #666;
+}
+.neon-wall_surface:before {
+  content: "\e9b4";
+  color: #666;
+}
+.neon-studio_pre_icon1:before {
+  content: "\e9dd";
+  color: #666;
+}
+.neon-studio_right_icon1:before {
+  content: "\e9de";
+  color: #666;
+}
+.neon-studio_rotate_icon1:before {
+  content: "\e9df";
+  color: #666;
+}
+.neon-account1:before {
+  content: "\e9e0";
+  color: #6a6a6a;
+}
+.neon-notification11:before {
+  content: "\e9e1";
+  color: #6a6a6a;
+}
+.neon-lock1:before {
+  content: "\e9e2";
+  color: #6a6a6a;
+}
+.neon-3601:before {
+  content: "\e9e3";
+  color: #666;
+}
+.neon-achive1:before {
+  content: "\e9e4";
+  color: #666;
+}
+.neon-add_more1:before {
+  content: "\e9e5";
+  color: #666;
+}
+.neon-Credit_Card1:before {
+  content: "\e9e6";
+  color: #666;
+}
+.neon-dashboard1:before {
+  content: "\e9e7";
+  color: #666;
+}
+.neon-Debit_Card1:before {
+  content: "\e9e8";
+  color: #666;
+}
+.neon-history-11:before {
+  content: "\e9e9";
+  color: #666;
+}
+.neon-home_living1:before {
+  content: "\e9ea";
+}
+.neon-image1:before {
+  content: "\e9eb";
+  color: #666;
+}
+.neon-Product_Pricing1:before {
+  content: "\e9ec";
+  color: #666;
+}
+.neon-Profile1:before {
+  content: "\e9ed";
+  color: #666;
+}
+.neon-remove1:before {
+  content: "\e9ee";
+  color: #666;
+}
+.neon-iconoir_wallet:before {
+  content: "\e94c";
+  color: #6a6a6a;
+}
+.neon-iconoir_wallet_three:before {
+  content: "\e94d";
+  color: #6a6a6a;
+}
+.neon-iconoir_wallet_two:before {
+  content: "\e94e";
+  color: #6a6a6a;
+}
+.neon-close_curtain_icon1 .path1:before {
+  content: "\e942";
+  color: rgb(102, 102, 102);
+}
+.neon-close_curtain_icon1 .path2:before {
+  content: "\e94f";
+  margin-left: -2em;
+  color: rgb(255, 255, 255);
+}
+.neon-add_studio_img1 .path1:before {
+  content: "\e943";
+  color: rgb(102, 102, 102);
+}
+.neon-add_studio_img1 .path2:before {
+  content: "\e950";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
